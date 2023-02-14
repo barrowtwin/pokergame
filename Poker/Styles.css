@@ -1,0 +1,225 @@
+/*
+ * Andrea De La Cruz, Eric Barrow, Sacha Le Clainff Alonzo
+ * Group Project
+ * 4/23/2020
+ * COSC 1174
+ * This file is used to style the video poker game. It sets colors, sizes, fonts, and shapes of many things in the program.
+ */
+
+/*******************************************************************************************************************************************************
+ * 
+ * Creates the blue theme
+ * 
+ ********************************************************************************************************************************************************/
+.root1 {
+	-fx-background-color: #03366e, linear-gradient(from 0% 0% to 100% 100%, #004e9c 0%, #002f5e 100%);
+	-fx-text-fill: #4bbde7;
+	-fx-font-size: 17;
+	-fx-font-family: "Consolas";
+}
+
+.button1 {
+	-fx-text-fill: #4bbde7;
+	-fx-font-weight: bold;
+	-fx-background-color: #114ea8;
+	-fx-background-radius: 4;
+}
+
+.button1:hover {
+	-fx-text-fill: #0e4190;
+	-fx-font-weight: bold;
+	-fx-background-color: #1c9ed1;
+}
+
+.radio-button1 {
+	-fx-text-fill: #4bbde7;
+	-fx-font-weight: bold;
+	-fx-background-image: null;
+    -fx-border-radius: 12px;
+    -fx-padding: 3px;
+}
+
+.radio-button1 .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: #22ade1;
+    -fx-background-color: #8fd4f0;
+    -fx-background-image: null;
+    -fx-border-radius: 12px;
+    -fx-padding: 3px;
+}
+
+.radio-button1 .dot {
+	-fx-mark-highlight-color: #114ea8 ;
+	-fx-mark-color: #114ea8 ;
+    -fx-background-radius: 15px;
+    -fx-padding: 4px;
+}
+
+.custom1 {
+	-fx-background-color: #8fd4f0;
+	-fx-text-fill: #0e408b;
+	-fx-font-family: "Consolas";
+	-fx-font-weight: bold;
+}
+
+.triangle-button1 {
+	-fx-shape: "M 200 450 Q 200 450 400 150 Q 600 450 600 450 Q 400 300 200 450";
+	-fx-background-color: #1c9ed1;
+}
+
+.triangle-button1:hover {
+	-fx-background-color: #0e4190;
+	-fx-text-fill: #1c9ed1;
+}
+
+.selector1 {
+	-fx-stroke-width: 4px;
+	-fx-stroke: #1c9ed1;
+}
+
+/*******************************************************************************************************************************************************
+ * 
+ * Creates the pinkish/purple theme
+ * 
+ ********************************************************************************************************************************************************/
+.root2 {
+	-fx-background-color: #5e3346;
+	-fx-text-fill: #d4cfd1;
+	-fx-font-size: 17;
+	-fx-font-family: "Consolas";
+}
+
+.button2 {
+	-fx-text-fill: #363435;
+	-fx-font-weight: bold;
+	-fx-background-color: #d4cfd1;
+	-fx-background-radius: 4;
+}
+
+.button2:hover {
+	-fx-text-fill: #d4cfd1;
+	-fx-font-weight: bold;
+	-fx-background-color: #363435;
+}
+
+.radio-button2 {
+	-fx-text-fill: #d4cfd1;
+	-fx-background-image: null;
+    -fx-border-radius: 12px;
+    -fx-padding: 3px;
+}
+
+.radio-button2 .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: #363435;
+    -fx-background-color: #d4cfd1;
+    -fx-background-image: null;
+    -fx-border-radius: 12px;
+    -fx-padding: 3px;
+}
+
+.radio-button2 .dot {
+	-fx-mark-highlight-color: #5e3346 ;
+	-fx-mark-color: #5e3346 ;
+    -fx-background-radius: 15px;
+    -fx-padding: 4px;
+}
+
+.custom2 {
+	-fx-background-color: #ecc6d8;
+	-fx-text-fill: #4d1931;
+	-fx-font-family: "Consolas";
+	-fx-font-weight: bold;
+}
+
+.triangle-button2 {
+	-fx-shape: "M 200 450 Q 200 450 400 150 Q 600 450 600 450 Q 400 300 200 450";
+	-fx-background-color: #d4cfd1;
+}
+
+.triangle-button2:hover {
+	-fx-background-color: #363435;
+}
+
+.selector2 {
+	-fx-stroke-width: 4px;
+	-fx-stroke: #d378a3;
+}
+
+/*******************************************************************************************************************************************************
+ * 
+ * Creates the dark theme
+ * 
+ ********************************************************************************************************************************************************/
+.root3 {
+	-fx-background-color: #404040, linear-gradient(from 0% 0% to 100% 100%, #1a1a1a 0%, #000000 100%);
+	-fx-text-fill: #999999;
+	-fx-font-size: 17;
+	-fx-font-family: "Consolas";
+}
+
+.button3 {
+	-fx-text-fill: #999999;
+	-fx-font-weight: bold;
+	-fx-background-color: #1a1a1a;
+	-fx-background-radius: 4;
+}
+
+.button3:hover {
+	-fx-text-fill: #000000;
+	-fx-font-weight: bold;
+	-fx-background-color: #999999;
+}
+
+.radio-button3 {
+	-fx-text-fill: #999999;
+	-fx-font-weight: bold;
+	-fx-background-image: null;
+    	-fx-border-radius: 12px;
+    	-fx-padding: 3px;
+}
+
+.radio-button3 .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: #999999;
+    -fx-background-color: #999999;
+    -fx-background-image: null;
+    -fx-border-radius: 12px;
+    -fx-padding: 3px;
+}
+
+.radio-button3 .dot {
+	-fx-mark-highlight-color: #000000 ;
+	-fx-mark-color: #000000 ;
+    -fx-background-radius: 15px;
+    -fx-padding: 4px;
+}
+
+.custom3 {
+	-fx-background-color: #999999;
+	-fx-text-fill: #1a1a1a;
+	-fx-font-family: "Consolas";
+	-fx-font-weight: bold;
+}
+
+.triangle-button3 {
+	-fx-shape: "M 200 450 Q 200 450 400 150 Q 600 450 600 450 Q 400 300 200 450";
+	-fx-background-color: #999999;
+}
+
+.triangle-button3:hover {
+	-fx-background-color: #000000;
+}
+
+.selector3 {
+	-fx-stroke-width: 4px;
+	-fx-stroke: #999999;
+}
+
+.top-board {
+	-fx-opacity: 0.15;
+	-fx-arc-height: 75px;
+	-fx-arc-width: 75px;
+	-fx-stroke-type: outside;
+	-fx-stroke-width: 8px;
+}
