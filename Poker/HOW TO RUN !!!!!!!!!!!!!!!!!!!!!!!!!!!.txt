@@ -1,6 +1,0 @@
-File should already be compiled and just needs to be run with: java %JAVA_FX% VideoPoker
-
-If it needs to be compiled again then do: javac %JAVA_FX% VideoPoker.java
-Then do the first step, after compiling.
-
-Found instructions on how to compile at: https://stackoverflow.com/questions/62129569/how-to-run-javafx-application-from-command-line#:~:text=You%20just%20have%20to%20get,java%20.
